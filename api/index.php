@@ -1,24 +1,4 @@
-<?php
-include "db.inc.php";
-include "validation.inc.php";
 
-session_start();
-$isLoggedIn = isset($_SESSION['isloggedin']) && $_SESSION['isloggedin'] == true;
-if (isset($_SESSION['email'])) {
-    $email = setup_input($_SESSION['email']);
-    $sql = "SELECT name FROM user_table WHERE email = '$email'";
-    $result = $conn->query($sql);
-    if ($result === false) {
-        die("Query failed: " . $conn->error);
-      }
-    else {
-        $row = $result->fetch_assoc();
-        $name = explode(" ",$row['name'])[0];
-    }
-}else if(isset($_SESSION['role']) && $_SESSION['role'] == "admin"){
-    $name = "admin";
-}
-?>
 <!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
