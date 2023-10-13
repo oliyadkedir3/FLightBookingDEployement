@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" conteNT="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Hub</title>
+    <!--css-->
+    <link rel="stylesheet" href="nav.css">
+
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <script src="nav.js"></script>
+</head>
+<body>
+<!--Header-->
+    <header class="header">
+        <nav class="nav container flex">
+            <a herf="#" class="logo">
+                <i class='bx bxs-plane-alt ' ></i>
+                <span class="logo-text">FLIGHT HUB</span>
+            </a>
+           
+            <div class="menu-content">
+                <uL>
+                    <li><a class="active" href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                </uL>
+                <div class="media-icons">
+                    <a href="https://www.facebook.com"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://www.instagram.com/accounts/login"><i class='bx bxl-instagram-alt' ></i></a>
+                    <a href="https://www.youtube.com"><i class='bx bxl-youtube'></i></a>
+            </div>
+
+            <!--i class='bx bx-x navClose-btn'></i-->
+            </div>
+
+            <div class="contact-content">
+                <i class='bx bx-phone phone-icon' ></i>
+                <span class="phone-number">011-hi-hello</span>
+            </div>
+            
+            <i class='bx bx-menu navOpen-btn'></i>
+        </nav>
+    </header>
+<!--home page-->
+<main>
+    <secion class="home" id="home">
+        <div class="home-content">
+                <img src="images\plane2.jpg" alt="" class="home-img">
+            </div>
+        <div class="home-detils">
+            <div class="home-text">
+                <h4 class="homeSubtitle">We strive for your satisfaction.</h4>
+                <h2 class="homeTitle">The sky's the limit!</h2>
+            </div>
+            <button class="button-ex" >Explore</button>
+        </div>
+    </secion>
+    
+</main>
+</body>
+</html>
+
+
+
+htmllll
+
+
+@import url(https://fonts.google.com/specimen/Architects+Daughter);
+/* Header */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Architects Daughter", sans-serif;
+}
+
+/* nav */
+nav{
+    height: 80px;
+    background: grey;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 0px 20px 0px 50px;
+}
+.logo-text {
+    Font-size: 33px;
+    font-weight:600;
+    background: linear-gradient(58.2deg, #6ff9e4, #fcfe6d, #c2197f ,rgb(159, 3, 167), rgb(75, 1, 75));
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    pointer-events:none;
+}
+.media-conent .contact-content{
+    align-items: center;
+    justify-self: space-evenly;
+}
+.media-icons{
+    align-self: flex-end;
+}
+.contact-content{
+    align-self: flex-start;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    margin: 0 5px;
+}
+media-icons,
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 10px;
+    border-radius: 5px;
+}
+nav ul li a:hover,
+nav ul li a.active{
+    color:rgb(159, 3, 167 );
+    background: #fff;
+}
+
+
+
+cssss
