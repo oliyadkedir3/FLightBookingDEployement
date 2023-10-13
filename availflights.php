@@ -146,6 +146,6 @@ $sql1 = "SELECT * FROM flights_table";
       <p>Terms of Service | Privacy Policy</p>
     </div>
   </footer>
-  <script src="index.js"></script>
+  <script src="script.js"></script>
     </body>
     </html>

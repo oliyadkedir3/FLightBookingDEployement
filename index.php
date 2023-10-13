@@ -334,6 +334,6 @@ if (isset($_SESSION['email'])) {
   </footer>
   
 <!--js script-->
-<script src="index.js"></script>
+<script src="script.js"></script>
 </body>
 </html>

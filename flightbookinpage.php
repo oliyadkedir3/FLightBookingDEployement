@@ -162,7 +162,7 @@ if(isset($_GET['fid'])){
   </footer>
   
 <!--js script-->
-<script src="index.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
 </body>

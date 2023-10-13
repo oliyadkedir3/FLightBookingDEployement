@@ -139,7 +139,7 @@ if (isset($_SESSION['email'])) {
       <p>Terms of Service | Privacy Policy</p>
     </div>
   </footer>
-  <script src="index.js"></script>
+  <script src="script.js"></script>
     </body>
     </html>
 
